@@ -1,0 +1,33 @@
+ .button-page{
+    width: 100%;
+    padding: 15px 20px;
+    cursor:pointer;
+    box-shadow:inset -50px 0px 0px -50px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:9px;
+	border:2px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 20px;
+	text-decoration:none;
+	text-shadow:-1px 3px 0px #528ecc;
+ }
+
+ .button-page:hover{
+    background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+ }
+ 
+ .button-page:active{
+    position:relative;
+	top:1px;
+ }
+ .button-page:disabled{
+    background:#8888 ;
+    cursor:not-allowed;
+ }
